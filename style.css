@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+p{
+    text-align: center;
+}
+
+/* HEADER
+------------------------------- */
+.logo {
+    width: 350px;
+    margin-top: 14px;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: #000000;
+}
+.main-nav a:hover{
+    color:  #0bd;
+}
+.page-header {
+    display:flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/*大きな画像*/
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+#home{
+    background-image:url(images/chachamaru_1.jpg);
+    min-height: 100vh;
+}
+#home.page-title{
+    text-transform: none;
+}
+
+
+/*Menu
+------------------------------------*/
+.Menu p{
+ text-align: center;
+}
+.page-title{
+    text-align: center;
+}
+
+.main-title{
+    text-align: center;
+     padding : 30px ;
+
+}
+
+.container{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+.inner{
+    margin: auto;
+}
+
+.container h4,h2,p{
+    color: black;
+    text-align: left;
+
+}
+.container img{
+    width: 300px;
+    height: auto;
+}
+
+.container2{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+
+
+.container2 h4,h2,p{
+    color: black;
+    text-align: left;
+}
+.container2 img{
+    width: 300px;
+    height: auto;
+}
+
+.container3{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  border-collapse: collapse;
+  width: 50%;
+
+}
+
+
+.container3 h4,h2,p{
+    color: black;
+    text-align: left;
+
+}
+.container3 img{
+    width: 300px;
+    height: auto;
+}
+
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    }
+
+
+tr:nth-child(odd) {
+  background-color: silver;
+  border: none;
+
+}
+
+table th, td{
+    padding: 25px;
+
+}
+
+
+
+/*フッター
+-------------------------------------*/
+footer{
+    background: #000000;
+    text-align: center;
+    padding:  26px 0;
+}
+footer p{
+    color:  #fff;
+    font-size: 0.875rem;
+}

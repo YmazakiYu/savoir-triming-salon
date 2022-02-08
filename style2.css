@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+p{
+    text-align: center;
+}
+
+/* HEADER
+------------------------------- */
+.logo {
+    width: 350px;
+    margin-top: 14px;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: #000000;
+}
+.main-nav a:hover{
+    color:  #0bd;
+}
+.page-header {
+    display:flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/*大きな画像*/
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+#home{
+    background-image:url(images/chachamaru_1.jpg);
+    min-height: 100vh;
+}
+#home.page-title{
+    text-transform: none;
+}
+
+/*Flow
+-------------------------------------*/
+#Flow{
+    height: 270px;
+    margin-bottom: 40px;
+}
+.page-title{
+text-align: center;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 1.25rem;
+     padding : 60px ;
+}
+
+.main-text{
+    text-align: center;
+    position: relative;
+}
+
+
+.text-1{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.text-2{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.text-3{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.text-4{
+    margin-bottom: 10px;
+    font-size: 1rem;
+
+}.text-5{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+
+img{
+    border-radius: 30px;
+}
+
+
+/*フッター
+-------------------------------------*/
+footer{
+    background: #000000;
+    text-align: center;
+    padding:  26px 0;
+}
+footer p{
+    color:  #fff;
+    font-size: 0.875rem;
+}
